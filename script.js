@@ -6,7 +6,7 @@ const issues = [
     description: "Sixteen pages inked and lettered.",
     folder: "images/2",
     pages: [
-      { file: "victory2-frontcover.webp", label: "Cover" },
+      { file: "victory2-cover.webp", label: "Cover" },
       ...Array.from({ length: 16 }, (_, index) => {
       const pageNumber = index + 1;
 
