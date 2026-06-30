@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unpublished Comic Art Archive</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <p class="eyebrow">Recovered Sequential Art</p>
+      <h1>Unpublished Comic Art Archive</h1>
+      <p class="intro">
+        A small research archive for unpublished comic pages, pencils, and cover art.
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <section class="archive-note" aria-labelledby="archive-note-title">
+      <h2 id="archive-note-title">Archive Status</h2>
+      <p>
+        These issues exist here in different states of completion: finished pages, pencil pages,
+        and cover-only material. Each section is labeled so the gaps are part of the archive story.
+      </p>
+    </section>
+
+    <section class="issue-tabs" aria-label="Issue filters">
+      <button class="tab-button active" type="button" data-filter="all">All Issues</button>
+      <button class="tab-button" type="button" data-filter="2">Issue #2</button>
+      <button class="tab-button" type="button" data-filter="3">Issue #3</button>
+      <button class="tab-button" type="button" data-filter="5">Issue #5</button>
+    </section>
+
+    <section id="issue-grid" class="issue-grid" aria-live="polite"></section>
+
+    <section class="disclaimer" aria-labelledby="disclaimer-title">
+      <h2 id="disclaimer-title">Disclaimer</h2>
+      <p>
+        I do not claim ownership of any artwork, characters, logos, trademarks, or related
+        intellectual property shown here. This page is hosted for research and archival purposes only.
+      </p>
+      <p>
+        The original images were downloaded from the archived page:
+        <a href="https://web.archive.org/web/20030814202249/http://theartistschoice.com/giffenmz.htm#VICTORY" target="_blank" rel="noopener noreferrer">
+          The Artist’s Choice archived page via the Wayback Machine
+        </a>.
+      </p>
+      <p>
+        Copyright owners who would like material removed can contact me on X at
+        <a href="https://x.com/owaddled" target="_blank" rel="noopener noreferrer">@owaddled</a>.
+      </p>
+    </section>
+  </main>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Comic page viewer">
+    <button id="lightbox-close" class="lightbox-close" type="button" aria-label="Close viewer">×</button>
+    <button id="lightbox-prev" class="lightbox-nav lightbox-prev" type="button" aria-label="Previous page">‹</button>
+    <figure class="lightbox-figure">
+      <img id="lightbox-image" src="" alt="" />
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure>
+    <button id="lightbox-next" class="lightbox-nav lightbox-next" type="button" aria-label="Next page">›</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
