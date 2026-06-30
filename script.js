@@ -21,10 +21,10 @@ const issues = [
     number: 3,
     title: "Issue #3",
     status: "Pencils Only",
-    description: "Uninked pencil art by Keith Giffen.",
+    description: "Uninked interior pencil art by Keith Giffen. Cover ad is from the back of Victory #1",
     folder: "images/3",
     pages: [
-      { file: "victory3-cover.webp", label: "Cover" },
+      { file: "victory3-cover-ad.jpg", label: "Cover" },
       { file: "victory3-p01.webp", label: "Page 1" },
       { file: "victory3-p02.webp", label: "Page 2" },
       { file: "victory3-p05.webp", label: "Page 5" }
