@@ -3,7 +3,7 @@ const issues = [
     number: 2,
     title: "Issue #2",
     status: "Inked + Lettered",
-    description: "Sixteen pages inked and lettered.",
+    description: "Sixteen pages: pencils by Keith Giffen, inks by Jimmy Palmiotti and lettering presumably by Richard Starkings and John Roshell.",
     folder: "images/2",
     pages: [
       { file: "victory2-cover.webp", label: "Cover" },
@@ -21,13 +21,13 @@ const issues = [
     number: 3,
     title: "Issue #3",
     status: "Pencils Only",
-    description: "Uninked pencil art.",
+    description: "Uninked pencil art by Keith Giffen.",
     folder: "images/3",
     pages: [
       { file: "victory3-cover.webp", label: "Cover" },
-      { file: "victory3-p01.webp", label: "Pencils 1" },
-      { file: "victory3-p02.webp", label: "Pencils 2" },
-      { file: "victory3-p05.webp", label: "Pencils 5" }
+      { file: "victory3-p01.webp", label: "Page 1" },
+      { file: "victory3-p02.webp", label: "Page 2" },
+      { file: "victory3-p05.webp", label: "Page 5" }
     ]
   },
   {
