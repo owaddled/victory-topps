@@ -6,12 +6,12 @@ const issues = [
     description: "Sixteen pages inked and lettered.",
     folder: "images/2",
     pages: [
-      { file: "cover.tif", label: "Cover" },
+      { file: "victory2-frontcover.webp", label: "Cover" },
       ...Array.from({ length: 16 }, (_, index) => {
       const pageNumber = index + 1;
 
       return {
-        file: `${String(pageNumber).padStart(2, "0")}.tif`,
+        file: `victory2-p${String(pageNumber).padStart(2, "0")}.webp`,
         label: `Page ${pageNumber}`
     };
   })
@@ -24,10 +24,10 @@ const issues = [
     description: "Uninked pencil art.",
     folder: "images/3",
     pages: [
-      { file: "cover.tif", label: "Cover" },
-      { file: "01.tif", label: "Pencils 1" },
-      { file: "02.tif", label: "Pencils 2" },
-      { file: "05.tif", label: "Pencils 5" }
+      { file: "victory3-cover.webp", label: "Cover" },
+      { file: "victory3-p01.webp", label: "Pencils 1" },
+      { file: "victory3-p02.webp", label: "Pencils 2" },
+      { file: "victory3-p05.webp", label: "Pencils 5" }
     ]
   },
   {
@@ -37,7 +37,7 @@ const issues = [
     description: "Only the cover artwork is available from this issue.",
     folder: "images/5",
     pages: [
-      { file: "cover.tif", label: "Cover" }
+      { file: "victory5-cover.webp", label: "Cover" }
     ]
   }
 ];
