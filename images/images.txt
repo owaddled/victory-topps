@@ -1,0 +1,3 @@
+<images>
+  do the thing
+</images>
