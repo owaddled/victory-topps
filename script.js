@@ -34,7 +34,7 @@ const issues = [
     number: 5,
     title: "Issue #5",
     status: "Cover Only",
-    description: "Only the cover artwork is available from this issue.",
+    description: "Pencils by Keith Giffen, inks by Jimmy Palmiotti.",
     folder: "images/5",
     pages: [
       { file: "victory5-cover.webp", label: "Cover" }
