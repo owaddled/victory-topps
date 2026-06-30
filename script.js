@@ -6,7 +6,7 @@ const issues = [
     description: "Sixteen finished pages of inked and lettered sequential art.",
     folder: "images/2",
     pages: Array.from({ length: 16 }, (_, index) => ({
-      file: `${String(index).padStart(2, "0")}.jpg`,
+      file: `${String(index).padStart(2, "0")}.tif`,
       label: `Page ${index}`
     }))
   },
@@ -17,9 +17,9 @@ const issues = [
     description: "Uninked pencil art. Update the page list below to match the files you have.",
     folder: "images/3",
     pages: [
-      { file: "01.jpg", label: "Pencils 1" },
-      { file: "02.jpg", label: "Pencils 2" },
-      { file: "03.jpg", label: "Pencils 3" }
+      { file: "01.tif", label: "Pencils 1" },
+      { file: "02.tif", label: "Pencils 2" },
+      { file: "03.tif", label: "Pencils 3" }
     ]
   },
   {
@@ -29,7 +29,7 @@ const issues = [
     description: "Only the cover artwork is available from this issue.",
     folder: "images/5",
     pages: [
-      { file: "cover.jpg", label: "Cover" }
+      { file: "cover.tif", label: "Cover" }
     ]
   }
 ];
