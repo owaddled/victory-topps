@@ -3,23 +3,31 @@ const issues = [
     number: 2,
     title: "Issue #2",
     status: "Inked + Lettered",
-    description: "Sixteen finished pages of inked and lettered sequential art.",
+    description: "Sixteen pages inked and lettered.",
     folder: "images/2",
-    pages: Array.from({ length: 16 }, (_, index) => ({
-      file: `${String(index).padStart(2, "0")}.tif`,
-      label: `Page ${index}`
-    }))
+    pages: [
+      { file: "cover.tif", label: "Cover" },
+      ...Array.from({ length: 16 }, (_, index) => {
+      const pageNumber = index + 1;
+
+      return {
+        file: `${String(pageNumber).padStart(2, "0")}.tif`,
+        label: `Page ${pageNumber}`
+    };
+  })
+]
   },
   {
     number: 3,
     title: "Issue #3",
     status: "Pencils Only",
-    description: "Uninked pencil art. Update the page list below to match the files you have.",
+    description: "Uninked pencil art.",
     folder: "images/3",
     pages: [
+      { file: "cover.tif", label: "Cover" },
       { file: "01.tif", label: "Pencils 1" },
       { file: "02.tif", label: "Pencils 2" },
-      { file: "03.tif", label: "Pencils 3" }
+      { file: "05.tif", label: "Pencils 5" }
     ]
   },
   {
