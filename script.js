@@ -6,8 +6,8 @@ const issues = [
     description: "Sixteen finished pages of inked and lettered sequential art.",
     folder: "images/2",
     pages: Array.from({ length: 16 }, (_, index) => ({
-      file: `${String(index + 1).padStart(2, "0")}.jpg`,
-      label: `Page ${index + 1}`
+      file: `${String(index).padStart(2, "0")}.jpg`,
+      label: `Page ${index}`
     }))
   },
   {
