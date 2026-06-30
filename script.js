@@ -3,10 +3,11 @@ const issues = [
     number: 2,
     title: "Issue #2",
     status: "Inked + Lettered",
-    description: "Sixteen pages: pencils by Keith Giffen, inks by Jimmy Palmiotti and lettering presumably by Richard Starkings and John Roshell.",
+    description: "Sixteen interior pages: pencils by Keith Giffen, inks by Jimmy Palmiotti and lettering presumably by Richard Starkings and John Roshell. The unknown page was printed in Jack Kirby Collector #31",
     folder: "images/2",
     pages: [
       { file: "victory2-cover.webp", label: "Cover" },
+      { file: "victory2-pUnknown.webp", label: "Page Unknown" },
       ...Array.from({ length: 16 }, (_, index) => {
       const pageNumber = index + 1;
 
