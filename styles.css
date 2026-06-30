@@ -311,6 +311,38 @@ main {
   right: 1rem;
 }
 
+.creator-interviews {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+}
+
+.interview-list {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.interview-card {
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.interview-card h3 {
+  margin: 0 0 0.5rem;
+}
+
+.interview-card a {
+  color: inherit;
+  text-decoration-thickness: 2px;
+}
+
+.interview-card p {
+  margin: 0;
+}
+
 @media (max-width: 720px) {
   main {
     width: min(100% - 1rem, 1180px);
